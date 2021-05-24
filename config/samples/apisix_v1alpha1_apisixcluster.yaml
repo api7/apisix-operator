@@ -1,0 +1,7 @@
+apiVersion: apisix.apache.org/v1alpha1
+kind: ApisixCluster
+metadata:
+  name: apisixcluster-sample
+spec:
+  # Add fields here
+  foo: bar

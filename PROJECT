@@ -1,0 +1,16 @@
+domain: apache.org
+layout:
+- go.kubebuilder.io/v3
+projectName: apisix-operator
+repo: github.com/api7/apisix-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: apache.org
+  group: apisix
+  kind: ApisixCluster
+  path: github.com/api7/apisix-operator/api/v1alpha1
+  version: v1alpha1
+version: "3"
